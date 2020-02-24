@@ -7,6 +7,18 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'Akty',
+        fieldName: 'legisla',
+        url: 'https://yyvo3eiy3zbohjkdxhbqzxmfoa.appsync-api.eu-central-1.amazonaws.com/graphql',
+        headers: {
+          'x-api-key': 'da2-lbasmvsh6rg2vhc5rcjlcv6lai'
+        }
+
+      } 
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
