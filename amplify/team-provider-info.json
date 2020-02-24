@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-legisla-dev-13908-authRole",
+            "UnauthRoleArn": "arn:aws:iam::456596995855:role/amplify-legisla-dev-13908-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::456596995855:role/amplify-legisla-dev-13908-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-legisla-dev-13908-deployment",
+            "UnauthRoleName": "amplify-legisla-dev-13908-unauthRole",
+            "StackName": "amplify-legisla-dev-13908",
+            "StackId": "arn:aws:cloudformation:eu-central-1:456596995855:stack/amplify-legisla-dev-13908/14ed9f00-569e-11ea-a126-0649b837173a",
+            "AmplifyAppId": "d1079st3ub68ri"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+type Akty @model {
+  id: ID!
+  name: String!
+  type: String
+  description: String
+  date: String
+  link: String
+}

@@ -1,0 +1,11 @@
+mutation create {
+  createAkty(input: {
+    name:"o zmianie ustawy o Państwowej Inspekcji Sanitarnej oraz niektórych innych ustaw"
+    type:"Uchwalone ustawy"
+    description: "USTAWA z dnia 13 lutego 2020 r.o zmianie ustawy – Kodeks postępowania cywilnego oraz niektórych innych ustaw"
+  	date: "23-01-2020"
+  	link: "http://orka.sejm.gov.pl/proc9.nsf/ustawy/46_u.htm"
+  }){
+    id name type description date link
+  }
+}
